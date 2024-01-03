@@ -1,0 +1,12 @@
+.navbar, .right-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .right-items {
+    margin: 2%;
+}
+
+.right-item {
+    margin-right: 50px;
+}

@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+
+.layout-nav, .registers {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 2%;
+}
+
+
+.layout-nav-items, .register-nav-item {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 2%;
+}
+
+.main-nav-items {
+    padding: 1%;
+    border-radius: 10px;
+}
